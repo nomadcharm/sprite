@@ -1,0 +1,151 @@
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 47px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.how__container {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.how {
+  background-color: #fff6ed;
+}
+
+.how__title {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  color: #000;
+}
+
+.how__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.how__item {
+  max-width: 375px;
+}
+
+.how__icon {
+  margin-bottom: 23px;
+  width: 375px;
+  height: 288px;
+}
+
+.how__subtitle {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #000;
+}
+
+.how__subtitle--accent {
+  color: #ff7a00;
+}
+
+.text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000;
+}
+
+.integration__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+  padding-top: 64px;
+  padding-bottom: 28px;
+  overflow: hidden;
+}
+
+.integration__container::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  width: 550px;
+  height: 275px;
+  background-image: url("../img/intg-bg.png");
+  background-repeat: no-repeat;
+  background-size: 550px 275px;
+  z-index: -1;
+}
+
+.integration__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.integration__left {
+  flex-basis: 55%;
+}
+
+.integration__right {
+  /* padding: 30px 0; */
+  flex-basis: 45%;
+  align-self: flex-end;
+}
+
+.socials__logo {
+  width: 70px;
+  height: 70px;
+}
+
+.socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
